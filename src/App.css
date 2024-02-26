@@ -1,0 +1,47 @@
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.btn{
+  width: 10dvw;
+  height: 7dvh;
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: rgb(91, 91, 91);
+  color: hsl(0, 1%, 87%);
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.opBtn{
+  background-color: rgb(219, 124, 0);
+  color: white;
+}
+
+.visor{
+  width: calc(40dvw + 10px);
+  height: 5dvh;
+  border-radius: 10px;
+  border: 0.4dvw solid rgb(101, 101, 101);
+  background-color: rgb(207, 207, 207);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: x-large;
+  text-align: center;
+  
+}
+
+.cBtn{
+  width: calc(40dvw + 10px);
+  height: 7dvh;
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: rgb(219, 124, 0);
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  
+}
